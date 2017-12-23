@@ -1,0 +1,540 @@
+
+/*---------------- MOBILE LAYOUT 320 --------------*/
+
+ /*------------- HEADER LAYOUT STYLES -----------*/
+
+ .profile-pic {
+   margin-top: 15px;
+   padding-right: -10px;
+ }
+
+
+ .intro {
+   margin-top: 50px;
+
+ }
+
+
+ .nav {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+ }
+
+
+
+
+
+/*----------- BODY LAYOUT STYLES -----------*/
+
+.nav a {
+   text-decoration: none;
+   color: black;
+
+   margin-left: 100px;
+
+  }
+
+
+
+.title {
+  color: #a7915c;
+  font-family: Open Sans Condensed;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+html,
+body {
+  max-width: 100%;
+}
+
+  body {
+  background: white;
+  text-align:center;
+  font-family:arial;
+   background-color: #076969;
+  }
+
+  main
+  img {
+    height:170px;
+    margin-top: 20px;
+  }
+
+  a:hover {
+  background-color:#a7915c ;
+}
+
+.link2 a {
+  text-decoration: none;
+
+}
+
+
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name1 {
+  margin-top: 50px;
+}
+
+.link2 {
+  margin-top: -280px;
+  margin-left: 200px;
+}
+
+
+ .address {
+  margin-top: 40px;
+
+ }
+
+
+.link {
+  padding-bottom: 20px;
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+
+.link2 a {
+   text-decoration: none;
+   color: black;
+ }
+
+
+.nav1 {
+ margin-top: 230px;
+}
+
+
+
+
+
+
+/*-----------------  TABLET LAYOUT 768  -------------------*/
+/*-----------------  TABLET Layout 768  -----------------*/
+
+@media (min-width: 768px) {
+
+
+/*--------------- HEADER LAYOUT -------------*/
+
+.intro {
+  font-family: arial;
+  text-align: left;
+  margin-top: -180px;
+  margin-left:  35px;
+  font-size: 15px;
+}
+
+.nav a, home {
+ margin-left: 15px;
+}
+
+
+.name {
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 50px;
+}
+
+
+.profile-pic {
+  margin-left: 420px;
+  padding-top: 0px;
+  padding-right: 20px;
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 230px;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+
+
+
+
+/*---------------- BODY LAYOUT STYLES ---------------*/
+
+
+
+.title {
+  text-align:center;
+  margin-top: 160px;
+  font-style: arial;
+  color: #a7915c;
+  margin-bottom: 20px;
+}
+
+
+body {
+  background: white;
+  font-family: arial;
+  background-color:#076969;
+}
+
+
+main {
+  max-width: 768px;
+  margin:auto;
+}
+
+
+main
+img {
+  height:170px;
+}
+
+
+.wrapper {
+   display: grid;
+   grid-template-columns: 375px 375px;
+   grid-row-gap: 50px;
+   padding-top:20px;
+ }
+
+a:hover {
+   background-color:  #a7915c;}
+
+
+
+
+ /*------- FOOTER STYLE LAYOUTS ------*/
+
+
+ .link2 {
+   display:none;
+ }
+
+ .address {
+   margin-top: 40px;
+ }
+
+
+ .contact {
+   margin-top: 75px;
+   margin-bottom: 40px;
+   color:#a7915c;
+ }
+
+
+ .footer {
+   text-align: center;
+   font-family: arial;
+   line-height: 30px;
+
+ }
+
+ .nav1 a {
+  text-decoration: none;
+   color: black;
+ }
+
+ .contain {
+   display:flex;
+   flex-wrap: wrap;
+ }
+
+ .name1{
+   margin-left: 40px;
+ }
+
+ .nav1 {
+  margin-left: 365px;
+  margin-top: 50px;
+ }
+
+.one,
+.h3,
+.article {
+ text-align: center; }
+
+
+.one,
+.h3,
+.article {
+ display: block;
+ margin: 0 auto; }
+
+
+ .two,
+ .h3,
+ .article {
+  text-align: center; }
+
+  .two,
+  .h3,
+  .article {
+  display: block;
+  margin: 0 auto; }
+
+
+
+ .three,
+ .h3,
+ .article {
+  text-align: center;}
+
+
+ .three,
+ .h3,
+ .article {
+  display: block;
+  margin: 0 auto;}
+
+
+ .four,
+ .h3,
+ .article {
+  text-align: center;}
+
+
+ .four,
+ .h3,
+ .article {
+  display: block;
+  margin: 0 auto;}
+
+
+ .five,
+ .h3,
+ .article {
+  text-align: center;}
+
+
+ .five,
+ .h3,
+ .article {
+  display: block;
+  margin: 0 auto;}
+
+
+ .six,
+ .h3,
+ .article {
+  text-align: center;}
+
+
+ .six,
+ .h3,
+ .article {
+  display: block;
+  margin: 0 auto; }
+
+}
+
+
+
+/*-------------- MEDIA QUERIES ON 1024 ---------------*/
+   /*--------- MEDIA QUERIES 1024 ------------*/
+
+@media (min-width: 1024px) {
+
+ /*-------- HEADER ----------*/
+
+ .nav {
+  display: inline;
+   margin-left: 690px;
+ }
+
+ .nav a, home {
+  margin-left: 10px;
+ }
+
+.profile-pic {
+  height:220px;
+  margin-right: -230px;
+  margin-top: 50px;
+  }
+
+
+.name {
+margin-top: 70px;
+margin-right: 850px;
+margin-bottom: -30px;
+}
+
+
+.intro {
+  font-size: 21px;
+  margin-left: 1px;
+  font-size: 20px;
+  }
+
+
+/*--------------- BODY LAYOUT STYLES ----------------*/
+
+
+.title {
+
+    color: #a7915c;
+    text-align: center;
+  }
+
+
+body {
+   font-family: 'nato-sans', sans-serif;
+   background-color: white;
+
+   background-color:#076969;
+}
+
+
+main {
+  max-width: 1040px;
+}
+
+
+main
+img {
+  height:185px;
+}
+
+
+.link2 {
+  margin-top: 75px;
+  margin-right: 0px;
+}
+
+
+.wrapper {
+  display:grid;
+  grid-template-columns: 334px 334px 334px;
+  grid-column-gap: 6px;
+  margin-top: 20px;
+}
+
+
+/*---------- FOOTER STYLES -------------*/
+
+
+.footer {
+
+  }
+
+
+.nav1 {
+ padding-left: 320px;
+}
+
+
+.name1 {
+ margin-left: 2px;
+}
+
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+
+  }
+
+.address {
+  margin-bottom: 30px;
+  border-left: 50px;
+}
+
+.one,
+  .h3,
+   .article {
+ text-align: center;
+}
+
+.one,
+  .h3,
+   .article {
+ display: block;
+ margin: 0 auto;
+ }
+
+ .two,
+   .h3,
+    .article {
+  text-align: center;
+ }
+
+ .two,
+   .h3,
+    .article {
+  display: block;
+  margin: 0 auto;
+  }
+
+  .three,
+    .h3,
+     .article {
+   text-align: center;
+  }
+
+  .three,
+    .h3,
+     .article {
+   display: block;
+   margin: 0 auto;
+   }
+
+   .four,
+     .h3,
+      .article {
+    text-align: center;
+   }
+
+   .four,
+     .h3,
+      .article {
+    display: block;
+    margin: 0 auto;
+    }
+
+    .five,
+      .h3,
+       .article {
+     text-align: center;
+    }
+
+    .five,
+      .h3,
+       .article {
+     display: block;
+     margin: 0 auto;
+     }
+
+     .six,
+       .h3,
+        .article {
+      text-align: center;
+     }
+
+     .six,
+       .h3,
+        .article {
+      display: block;
+      margin: 0 auto;
+      }
+
+      .student {
+        float:left;
+      }
+
+}
